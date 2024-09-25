@@ -1,0 +1,50 @@
+@font-face{
+  font-family: "sahel";
+  src: url(fonts/Sahel-FD-WOL.eot) format("eot"), url(fonts/Sahel-FD-WOL.ttf) format("truetype"),url(fonts/Sahel-FD-WOL.woff) format("woff");
+}
+
+*
+{
+  font-family: 'sahel';
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;;
+  text-decoration: none;
+  border: none;
+}
+
+html{
+  font-size: 20px;
+  overflow-x: hidden;
+}
+ body{
+     display:flex;
+	 
+	 
+	align-content: flex-start;
+	 align-items: Center ; align-content: center;
+
+   padding: 2rem;
+   font-family: 'sahel';
+ }
+ body::-webkit-scrollbar{
+   width: 1.25rem;
+ }
+ body::-webkit-scrollbar-track{
+   background:#1e1e24;
+ }
+ body::-webkit-scrollbar-thumb{
+   background:  #d91b1b;
+ }
+
+ .textrea{
+	 border: 1px solid black;
+    padding: 20px;background-color:blue;
+	margin:5px; align-self: center;
+ }
+ span{
+	 margin:15px;
+	 display:block;
+	 background-color:blue;
+ }
